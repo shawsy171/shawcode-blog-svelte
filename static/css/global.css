@@ -1,0 +1,80 @@
+ /* https://colorhunt.co/palette/0926351b42425c83749ec8b9 */
+ /* color order */
+/* 092635 */
+/* 1B4242 */
+/* 5C8374 */
+/* 9EC8B9 */
+ /* :root {
+   --green-900: #040D12;
+   --green-700: #132e2e;
+   --green-600: #1B4242;
+   --green-400: #5C8374;
+   --green-200: #9EC8B9;
+ } */
+:root {
+  --green-900: #040D12;
+  --green-700: #363062;
+  --green-600: #435585;
+  --green-400: #818FB4;
+  --green-200: #F5E8C7;
+  --purple-900: #B900FF;
+  --purple-300: #E9B0FF;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--green-900);
+  color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* color: var(--green-400); */
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color:var(--purple-900); 
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--purple-300);
+  text-decoration: underline;
+}
+
+.posts {
+  list-style: none;
+  display: grid;
+  gap: 2rem;
+}
+
+.post {
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.categories {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.pill {
+  background-color: var(--purple-900);
+  padding: 0.3rem 1rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+}
+
+.date {
+  color: #585858;
+  font-size: 0.8rem;
+}

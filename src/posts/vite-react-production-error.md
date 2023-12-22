@@ -1,7 +1,7 @@
 ---
 title: Vite react production error  
 description: current.useState, current is null
-date: '2023-10-30'
+date: '2023-10-21'
 categories:
   - react
   - vite
