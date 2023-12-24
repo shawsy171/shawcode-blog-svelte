@@ -35,7 +35,7 @@
 <style>
   hgroup {
     padding-bottom: 2rem;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid var(--grey-900);
   }
 
   h1 {

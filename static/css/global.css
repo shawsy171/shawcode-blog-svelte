@@ -1,41 +1,31 @@
- /* https://colorhunt.co/palette/0926351b42425c83749ec8b9 */
- /* color order */
-/* 092635 */
-/* 1B4242 */
-/* 5C8374 */
-/* 9EC8B9 */
- /* :root {
-   --green-900: #040D12;
-   --green-700: #132e2e;
-   --green-600: #1B4242;
-   --green-400: #5C8374;
-   --green-200: #9EC8B9;
- } */
+/* https://colorhunt.co/ */
+
 :root {
-  --green-900: #040D12;
-  --green-700: #363062;
-  --green-600: #435585;
-  --green-400: #818FB4;
-  --green-200: #F5E8C7;
+  --black-900: #040D12;
   --purple-900: #B900FF;
+  --purple-700: #363062;
   --purple-300: #E9B0FF;
+  --grey-200: #E0E0E0;
+  --grey-900: #212121;
 }
 
 html, body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: var(--green-900);
+  background-color: var(--black-900);
   color: #fff;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  /* color: var(--green-400); */
 }
 
 ul {
   padding: 0;
   margin: 0;
+}
+
+ul li {
+  margin-left: 15px;
+  line-height: 1.5;
+  color: var(--grey-200);
 }
 
 a {
@@ -48,6 +38,11 @@ a {
 a:hover {
   color: var(--purple-300);
   text-decoration: underline;
+}
+
+p {
+  line-height: 1.5;
+  color: var(--grey-200);
 }
 
 .posts {

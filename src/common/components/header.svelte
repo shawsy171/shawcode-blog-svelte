@@ -16,7 +16,7 @@
     justify-content: center;
     padding: 1rem;
     border-bottom: 1px solid #ccc;
-    background-color: var(--green-700);
+    background-color: var(--purple-700);
   }
 
   nav a {
