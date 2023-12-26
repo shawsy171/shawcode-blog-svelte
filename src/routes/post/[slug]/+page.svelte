@@ -1,7 +1,6 @@
 <script lang="ts">
-  import { formatDate } from '$lib/dates';
   import Header from '../../../common/components/header.svelte';
-
+  import Date from '$common/components/date.svelte';
   export let data;
 
   console.log(data);
@@ -16,14 +15,15 @@
   <meta property="og:type" content="article" />
 </svelte:head>
 <hgroup>
-  <p class="date">{formatDate(data.metadata.date)}</p>
   <h1>{data.metadata.title}</h1>
-
+  
   <div class="categories">
     {#each data.metadata.categories as category}
-      <span class="pill">{category}</span>
+    <span class="pill">{category}</span>
     {/each}
   </div>
+
+  <Date date={data.metadata.date} />
 </hgroup>
 
 <div class="markdown-content">
@@ -34,7 +34,7 @@
 
 <style>
   hgroup {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
     border-bottom: 1px solid var(--grey-900);
   }
 

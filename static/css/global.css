@@ -6,6 +6,7 @@
   --purple-700: #363062;
   --purple-300: #E9B0FF;
   --grey-200: #E0E0E0;
+  --grey-700: #616161;
   --grey-900: #212121;
 }
 
@@ -66,10 +67,5 @@ p {
   background-color: var(--purple-900);
   padding: 0.3rem 1rem;
   border-radius: 20px;
-  font-size: 0.8rem;
-}
-
-.date {
-  color: #585858;
   font-size: 0.8rem;
 }
