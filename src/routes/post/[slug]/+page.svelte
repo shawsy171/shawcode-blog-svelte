@@ -1,6 +1,8 @@
 <script lang="ts">
   import Header from '../../../common/components/header.svelte';
   import Date from '$common/components/date.svelte';
+  import BackLink from '$common/components/back-link.svelte';
+  
   export let data;
 
   console.log(data);
@@ -30,7 +32,7 @@
   <svelte:component this={data.content} />
 </div>
 
-<a href="/">Back</a>
+<BackLink href="/" />
 
 <style>
   hgroup {

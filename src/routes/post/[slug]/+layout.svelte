@@ -1,8 +1,9 @@
-
-
+<script lang="ts">
+  import BackLink from "$common/components/back-link.svelte";
+</script>
 
 <div class="post-container">
-  <a href="/">{"<"} Back</a>
+  <BackLink href="/" />
   <slot />
 </div>
 
